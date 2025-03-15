@@ -283,7 +283,7 @@ def main():
  
     test_loss, test_acc, _ = model_utils.test_step(blackbox, testloader, nn.CrossEntropyLoss(), device,
                                                 epoch=epoch,min_max_values=True)
-    print(test_acc)
+    print(f"Test_acc: {test_acc}")
 
 if __name__ == '__main__':
     main()
