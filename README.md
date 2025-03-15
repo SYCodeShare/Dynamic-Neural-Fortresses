@@ -31,7 +31,7 @@ python dfme_cifar100.py
 ---
 Usage for training and testing Resnet network with the proposed method on dataset CUB200.
 
-Download the model and place it in the corresponding folder.
+Download the model and place it in the corresponding folder.  [Models](https://drive.google.com/drive/folders/1P6KswhgF2e87fJ8zoeQaTwJk9eQO6W3c?usp=sharing)
 
 ```python
 
