@@ -216,14 +216,14 @@ def test_step(model, test_loader, criterion, device, epoch=0., silent=False, gt_
 
     
     # After the loop, save the outputs to a file for later use
-    output_file = "stored_outputs.npy"
-    np.save(output_file, np.vstack(stored_outputs))  # Save as a numpy file
-    print(f"Outputs saved to {output_file}")
+    #output_file = "stored_outputs.npy"
+    #np.save(output_file, np.vstack(stored_outputs))  # Save as a numpy file
+    #print(f"Outputs saved to {output_file}")
 
-    # Optionally, save as a pickle file for more flexibility
-    with open("stored_outputs.pkl", "wb") as f:
-        pickle.dump(stored_outputs, f)
-        print("Outputs also saved to stored_outputs.pkl")
+    # # Optionally, save as a pickle file for more flexibility
+    # with open("stored_outputs.pkl", "wb") as f:
+    #     pickle.dump(stored_outputs, f)
+    #     print("Outputs also saved to stored_outputs.pkl")
 
     acc = 100. * correct / total
     test_loss /= total
