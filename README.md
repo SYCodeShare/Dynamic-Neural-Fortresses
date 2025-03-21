@@ -1,4 +1,4 @@
-# Dynamic Neural Fortresses
+# Dynamic Neural Fortresses: An Adaptive Shield for Model Extraction Defense
 
 The code for "Dynamic Neural Fortresses: An Adaptive Shield for Model Extraction Defense"
 This repository contains the code accompanying the ICLR 2025 paper "Dynamic Neural Fortresses: An Adaptive Shield for Model Extraction Defense" Paper [link](https://openreview.net/pdf?id=029hDSVoXK): 
